@@ -1,0 +1,47 @@
+.hero {
+    background-color: #F5F5F5;
+    height: 100vh;
+    min-height: 650px;
+    color: $black;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 46.32px;
+        height: 10.38px;
+        left: 1147px;
+        top: 644px;
+        background: #C4C4C4;
+        transform: rotate(-45deg);
+    }
+}
+
+.hero__title-section {
+    width: 40%;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 21px 0 45px;
+    background: url('../img/content/Ellipse 5.png') right / 45% auto no-repeat;
+}
+
+.hero__main-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+}
+
+.hero__title-description {
+    font-size: 21px;
+    font-family: $sfont;
+    line-height: 1;
+    margin-bottom: 56px;
+    padding-right: 10%;
+}
