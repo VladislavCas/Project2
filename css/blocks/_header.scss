@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 38px;
+}
+
+nav {
+    display: flex;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    margin-right: 27px;
+    font-family: $sfont;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+}
+
+.tel {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.phone-number {
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;   
+}
+
+.phone-number__icon-elem {
+    width: 14px;
+    height: 13.78px;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 18px;
+}
