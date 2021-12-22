@@ -60,7 +60,8 @@ $('.form').submit((e) => {
             document.body.classList.add('locked');
             $.fancybox.open({
                 src: "#modal",
-                type: "inline"    
+                type: "inline",   
+                touch: false
             }); 
         });
     }
