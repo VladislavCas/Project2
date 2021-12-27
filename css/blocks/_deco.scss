@@ -1,0 +1,84 @@
+.container.hero__container::after {
+    position: absolute;
+    content: "";
+    width: rem(46px);
+    height: rem(10px);
+    left: rem(848px);
+    top: rem(795px);
+    background: #C4C4C4;
+    transform: rotate(-45deg);
+
+    @include tablets {
+        left: rem(656px);
+        top: rem(1050px);
+    }
+
+    @include phones {
+        left: rem(432px);
+        top: rem(906px);
+    }
+}
+
+.section.benefits::after {
+    content: url('../img/icon/Vector\ 2.svg');
+    position: absolute;
+    left: rem(46px);
+    top: rem(742px);
+
+    @include tablets {
+        left: rem(46px);
+        top: rem(742px);
+    }
+
+    @include phones {
+        left: rem(29px);
+        top: rem(745px);
+    }
+}
+
+.container.reviews-container::after {
+    content: '';
+    position: absolute;
+    background: #868686;
+    width: rem(35px);
+    height: rem(35px);
+    border-radius: 50%;
+    left: rem(0px);
+    top: rem(577px);
+
+    @include tablets {
+        left: rem(60px);
+        top: rem(820px); 
+    }
+
+    @include phones {
+        left: rem(44px);
+        top: rem(788px); 
+    }
+}
+
+.section.slider-section::after {
+        position: absolute;
+        content: '';
+        width: 24px;
+        height: 24px;
+        left: rem(1020px);
+        top: rem(792px);
+        background: #292929;
+        transform: rotate(29.11deg);
+}
+
+.section.video:after {
+    position: absolute;
+    content: url('../img/icon/Polygon\ 2.svg');
+    top: rem(740px);
+    right: rem(68px);
+
+    @include tablets {
+        top: rem(900px);
+    }
+
+    @include phones {
+        top: rem(862px);
+    }
+}
