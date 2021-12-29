@@ -1,0 +1,39 @@
+.headline {
+    text-align: center;
+    margin-bottom: rem(58px);
+
+    @include tablets {
+        margin-bottom: rem(56px);
+    }
+
+    @include phones {
+        margin-bottom: rem(52px);
+    }
+}
+
+.headline__title {
+    margin-bottom: rem(16px);
+
+    @include tablets {
+        margin-bottom: rem(10px);
+    }
+
+    @include phones {
+        margin-bottom: rem(7px);
+    }
+}
+
+.headline__subtitle {
+    padding: 0 19%;
+
+    @include tablets {
+        font-size: rem(17px);
+        padding: 0 14%;
+    }
+
+    @include phones {
+        padding: 0 3%;
+        font-size: rem(18.4px);
+        line-height: 1.2;
+    }
+}
